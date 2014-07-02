@@ -168,7 +168,9 @@ function onFeatureUnselect(evt) {
                 <a href='http://youtu.be/tSQIahCTkWw'>
                     <h1>HOW TO CMS GEO</h1>
                 </a>
-                <b>come trasformare Wordpress in un CMS geospaziale</b>
+                <b>come trasformare Wordpress in un CMS geospaziale</b> 
+                (<a href='https://github.com/pjhooker/pjh_geocms'>GitHub</a> - 
+                <a href='http://www.cityplanner.it'>www.cityplanner.it</a>)
             </tr>
             <tr>
                 <td align='center'>
