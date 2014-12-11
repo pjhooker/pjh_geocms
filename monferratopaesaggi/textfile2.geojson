@@ -9757,17 +9757,6 @@
             "wpid_comune":"2199","comune":"Moncestino","imageurl" : "http://www.monferratopaesaggi.org/wp-content/uploads/chiesa.png" 
           },
         "type" : "Feature"
-      },
-
-  { "geometry" : { "coordinates" : [ 0,
-                0
-              ],
-            "type" : "Point"
-          },
-        "properties" : { "Colour" : "#ffffff",
-            "ImageURL" : "/360Scheduling/Content/Images/ByBox.png"
-          },
-        "type" : "Feature"
       }
     ],
   "type" : "FeatureCollection"
