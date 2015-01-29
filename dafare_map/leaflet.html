@@ -1,0 +1,74 @@
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				#dafarein/a ... Italia
+			</div>
+			<div class="panel-body">
+				<div id="map"></div>
+			</div>
+		</div>
+
+<script src='http://www.cityplanner.it/experiment_host/supply/geojson/exp_insta_dafarelombardia.js' ></script>
+				
+<script>
+	var map = L.map('map', { zoomControl:true }).setView([41.907568, 12.511608], 6);
+	var hash = new L.Hash(map); //add hashes to html address to easy share locations
+	var additional_attrib = 'created w. <a href="https://github.com/geolicious/qgis2leaf" target ="_blank">qgis2leaf</a> by <a href="http://www.geolicious.de" target ="_blank">Geolicious</a> & contributors<br>';
+	var feature_group = new L.featureGroup([]);
+
+	function getIcon2(d2) {
+	    return  d2 === "instagram" ? "http://www.cityplanner.it/supply/icon_web/glyphicons_free/glyphicons-328-sampler.png" :
+	            "http://www.cityplanner.it/supply/icon_web/glyphicons_free/glyphicons-162-macbook.png";           
+	}
+
+	var raster_group = new L.LayerGroup([]);
+	
+	var basemap_0 = L.tileLayer(
+		'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
+			attribution: additional_attrib + '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+		}
+	);	
+	basemap_0.addTo(map);	
+	var layerOrder=new Array();
+		function pop_ptluoghi(feature, layer) {									
+			var popupContent = ''
+						+'<b>' 
+						+ feature.properties.key_query 
+						+ '</b>'			
+						+'<a href="' 
+						+ feature.properties.id 
+						+ '">'
+						+''
+						+ feature.properties.title
+						+ ''
+						+'</a><br><img src="' 
+						+ feature.properties.imageurl 
+						+ '" width="100%"/>';
+			layer.bindPopup(popupContent);
+		}
+						
+	var exp_ptluoghiJSON = new L.geoJson(exp_ptluoghi,{
+		onEachFeature: pop_ptluoghi,
+		pointToLayer: function (feature, latlng) {  
+						return L.marker(latlng, {icon: L.icon({
+							iconUrl: getIcon2(feature.properties.sources),
+							iconSize:     [24, 24], // size of the icon change this to scale your icon (first coordinate is x, second y from the upper left corner of the icon)
+							iconAnchor:   [12, 12], // point of the icon which will correspond to marker's location (first coordinate is x, second y from the upper left corner of the icon)
+							popupAnchor:  [0, -14] // point from which the popup should open relative to the iconAnchor (first coordinate is x, second y from the upper left corner of the icon)
+			 				})
+			 			})
+			}
+		});
+	
+	var cluster_groupptluoghiJSON= new L.MarkerClusterGroup({showCoverageOnHover: false});
+	cluster_groupptluoghiJSON.addLayer(exp_ptluoghiJSON);
+	
+			//add comment sign to hide this layer on the map in the initial view.
+			cluster_groupptluoghiJSON.addTo(map);
+
+		
+	var baseMaps = {
+		'OpenStreetsMap': basemap_0
+	};
+	L.control.layers(baseMaps,{"#dafare...": cluster_groupptluoghiJSON},{collapsed:false}).addTo(map);
+	L.control.scale({options: {position: 'bottomleft',maxWidth: 100,metric: true,imperial: false,updateWhenIdle: false}}).addTo(map);
+</script>
