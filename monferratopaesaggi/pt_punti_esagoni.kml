@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.2'>
+<Document>
+  <name>Monferrato punti (prova)</name>
+  <description><![CDATA[casaleMonferrato-sgiorgio1.kml]]></description>
+  <Style id='style_none'>
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_chiesa'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/ed-religioso.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_storico'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/ed-storico2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_view'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/punto-oss.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_prodotti'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/attivita-e-prodotti.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_parcheggio'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/parcheggio.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_acqua'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/casetta-acqua.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_bb'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/bedbreak.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_ristorante'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/ristorante.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_hotel'>
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/hotel.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id='style_informazioni'> 
+    <IconStyle>
+      <Icon>
+        <href>http://www.monferratopaesaggi.org/wp-content/uploads/2014/01/info.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+<Placemark>
+            <name>POI: 25</name>
+            <Snippet>1</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>1</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/1.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.075513792453053,45.090683235864304</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 35</name>
+            <Snippet>25</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>25</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/25.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.103226605374166,45.106683235864345</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 46</name>
+            <Snippet>6</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>6</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/6.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.130939418295256,45.122683235864301</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 47</name>
+            <Snippet>2</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>2</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/2.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.130939418295258,45.154683235864304</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 53</name>
+            <Snippet>1</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>1</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/1.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.15865223121636,45.04268323586431</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 54</name>
+            <Snippet>5</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>5</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/5.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.15865223121636,45.074683235864313</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 55</name>
+            <Snippet>20</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>20</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/20.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.158652231216362,45.10668323586431</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 56</name>
+            <Snippet>17</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>17</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/17.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.158652231216363,45.138683235864335</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 57</name>
+            <Snippet>29</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>29</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/29.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.158652231216374,45.170683235864466</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 64</name>
+            <Snippet>4</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>4</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/4.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.186365044137462,45.058683235864308</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 65</name>
+            <Snippet>12</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>12</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/12.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.186365044137467,45.090683235864311</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 66</name>
+            <Snippet>9</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>9</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/9.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.186365044137462,45.122683235864315</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 67</name>
+            <Snippet>15</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>15</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/15.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.186365044137462,45.154683235864333</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 73</name>
+            <Snippet>3</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>3</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/3.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.214077857058561,45.04268323586431</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 74</name>
+            <Snippet>8</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>8</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/8.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.214077857058564,45.074683235864335</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 75</name>
+            <Snippet>7</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>7</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/7.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.214077857058561,45.106683235864303</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 76</name>
+            <Snippet>3</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>3</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/3.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.214077857058566,45.138683235864313</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 77</name>
+            <Snippet>18</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>18</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/18.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.21407785705857,45.170683235864317</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 83</name>
+            <Snippet>1</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>1</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/1.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.241790669979663,45.026683235864297</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 84</name>
+            <Snippet>2</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>2</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/2.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.241790669979663,45.058683235864301</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 85</name>
+            <Snippet>11</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>11</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/11.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.241790669979663,45.090683235864311</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 86</name>
+            <Snippet>12</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>12</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/12.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.241790669979661,45.122683235864322</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 87</name>
+            <Snippet>27</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>27</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/27.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.241790669979672,45.154683235864468</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 93</name>
+            <Snippet>23</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>23</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/23.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.269503482900776,45.042683235864324</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 94</name>
+            <Snippet>15</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>15</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/15.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.269503482900769,45.074683235864299</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 95</name>
+            <Snippet>19</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>19</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/19.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.26950348290077,45.106683235864303</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 96</name>
+            <Snippet>25</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>25</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/25.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.269503482900783,45.138683235864427</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 97</name>
+            <Snippet>29</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>29</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/29.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.269503482900788,45.170683235864466</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 104</name>
+            <Snippet>4</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>4</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/4.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.297216295821867,45.058683235864308</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 105</name>
+            <Snippet>7</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>7</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/7.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.297216295821867,45.09068323586429</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 106</name>
+            <Snippet>7</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>7</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/7.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.297216295821867,45.122683235864301</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 107</name>
+            <Snippet>24</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>24</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/24.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.297216295821869,45.154683235864432</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 108</name>
+            <Snippet>5</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>5</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/5.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.297216295821865,45.186683235864301</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 112</name>
+            <Snippet>12</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>12</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/12.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.324929108742973,45.010683235864313</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 113</name>
+            <Snippet>21</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>21</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/21.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.324929108742971,45.042683235864324</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 114</name>
+            <Snippet>2</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>2</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/2.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.324929108742969,45.074683235864306</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 116</name>
+            <Snippet>15</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>15</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/15.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.324929108742973,45.138683235864328</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 123</name>
+            <Snippet>3</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>3</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/3.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.352641921664073,45.026683235864311</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 124</name>
+            <Snippet>15</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>15</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/15.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.352641921664068,45.058683235864315</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 125</name>
+            <Snippet>11</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>11</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/11.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.352641921664071,45.090683235864311</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 126</name>
+            <Snippet>18</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>18</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/18.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.352641921664066,45.122683235864329</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 127</name>
+            <Snippet>5</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>5</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/5.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.352641921664073,45.154683235864312</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 132</name>
+            <Snippet>9</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>9</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/9.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.380354734585174,45.010683235864313</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 133</name>
+            <Snippet>4</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>4</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/4.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.380354734585175,45.042683235864317</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 134</name>
+            <Snippet>5</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>5</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/5.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.380354734585175,45.074683235864313</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 135</name>
+            <Snippet>6</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>6</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/6.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.380354734585174,45.106683235864296</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 136</name>
+            <Snippet>22</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>22</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/22.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.380354734585184,45.138683235864391</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 143</name>
+            <Snippet>6</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>6</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/6.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.408067547506276,45.026683235864304</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 145</name>
+            <Snippet>6</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>6</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/6.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.408067547506276,45.090683235864297</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 146</name>
+            <Snippet>15</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>15</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/15.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.408067547506278,45.122683235864322</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 152</name>
+            <Snippet>9</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>9</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/9.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.435780360427378,45.010683235864313</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 154</name>
+            <Snippet>2</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>2</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/2.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.435780360427378,45.074683235864306</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 156</name>
+            <Snippet>10</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>10</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/10.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.435780360427378,45.138683235864313</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 163</name>
+            <Snippet>9</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>9</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/9.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.463493173348482,45.026683235864304</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 164</name>
+            <Snippet>6</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>6</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/6.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.463493173348478,45.058683235864287</coordinates></Point>
+        </Placemark>
+<Placemark>
+            <name>POI: 172</name>
+            <Snippet>12</Snippet>
+            <description><![CDATA[<div dir='ltr'><span color='red'><b>12</b></span>]]>
+            </description>
+            <Style>
+                <IconStyle>
+                  <Icon>
+                    <href>http://www.cityplanner.it/supply/icon_web/set4_lwt_map_icons/monferrato1/12.png</href>
+                  </Icon>
+                </IconStyle>
+            </Style>
+            <Point><coordinates>8.491205986269588,45.010683235864313</coordinates></Point>
+        </Placemark>
+</Document>
+</kml>
