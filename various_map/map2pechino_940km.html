@@ -1,0 +1,52 @@
+<!-- connect to external LeafletJS style library -->
+<link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
+
+<!-- HTML CSS style custom for full screen -->
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  html, body, #map {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+</style>
+
+<!-- Container that show map -->
+<div id="map"></div>
+
+<!-- connect to external LeafletJS script library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
+
+<!-- LeafletJS script custom -->
+<script>
+
+  // define coordinates of map center and zoom
+  // where 0 is World view (small scale)
+  // and 21 is Street view (large scale)
+  var map = L.map('map').setView([39.9059093, 116.3913489], 7);
+
+  // define a base map, that you can choose from many different
+  // option here http://www.cityplanner.it/wp_pulito/leaflet-providers-preview/
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  // define coordinates of marker
+  // and text show in popup (after code .bindPopup)
+  L.marker([39.9059093, 116.3913489]).addTo(map)
+  	.bindPopup("<b>City of Beijing</b><br />Center of 940km circle").openPopup();
+
+  // define coordinates of circle center
+  // and the radius (ex. 149681)
+	L.circle([39.9059093, 116.3913489], 149681, {
+		color: 'red', // color of circle border
+    weight: 3, // thickness of circle border
+		fillColor: '#f03', // filling or inside surface of circle
+		fillOpacity: 0.2 // transparency of circle fill
+	}).addTo(map);
+
+  </script>
