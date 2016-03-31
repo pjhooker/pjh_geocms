@@ -6,7 +6,7 @@
  * - base_singolo_map.js (https://github.com/pjhooker/pjh_geocms/blob/master/gistonic-milano/base_singolo_map.js)
  * - base_singolo_style.js (https://github.com/pjhooker/pjh_geocms/blob/master/gistonic-milano/base_singolo_style.js)
  *
- * Speigazione: http://gistonic-milano.1hi.it/pubblicare-mappa-un-layer/
+ * Spiegazione: http://gistonic-milano.1hi.it/pubblicare-mappa-un-layer/
  *
  * In questo file ci sono le impostazioni per la mappa
  *
