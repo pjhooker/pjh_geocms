@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- il commento in HTML si scrive tra questa combinazione di caratteri -->
+
+		<!-- Meta informazioni pagina HTML -->
+
+			<title>Aree Dismesse - censimento</title>
+
+			<meta charset="utf-8" />
+			<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+		<!--
+			definizione degli stili della pagina HTML
+		-->
+
+			<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
+			<!--
+				note:
+					gli stili di solito si mettono su un file separato
+					solo a scopo organizzativo
+					questo di seguito tra <style> ... </style>
+					è qui per essere spiegato meglio
+			-->
+
+			<style>
+				body {
+						padding: 0;
+						margin: 0;
+				}
+				html, body, #map_html {
+					height: 100%;
+					width: 100%;
+					padding: 0;
+					margin: 0;
+				}
+				th {
+					text-align: left;
+					vertical-align: top;
+				}
+				.info {
+					padding: 6px 8px;
+					font: 14px/16px Arial, Helvetica, sans-serif;
+					background: white;
+					background: rgba(255,255,255,0.8);
+					box-shadow: 0 0 15px rgba(0,0,0,0.2);
+					border-radius: 5px;
+				}
+				.info h2 {
+					margin: 0 0 5px;
+					color: #777;
+				}
+				.leaflet-container {
+					background: #fff;
+				}
+			</style>
+
+		<!--
+			definizione delle librerie JAVASCRIPT
+			per rendere dinamica la pagina
+		-->
+
+			<!-- libreria JQuery https://code.jquery.com/ -->
+			<script src="https://code.jquery.com/jquery-1.12.2.min.js"
+							integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="
+							crossorigin="anonymous">
+			</script>
+
+			<!-- libreria LeafleJS http://leafletjs.com/download.html -->
+			<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+	</head>
+	<body>
+
+		<!--
+			questo contenitore è l'unico elemento "statico"
+			della pagina HTML e verrà riempito in modo dinamico
+			tramite lo SCRIPT che inizia di seguito <script> ... </script>
+		-->
+		<div id="map_html"></div>
+
+		<!--
+
+			da qui <script> ... </script>
+			inizia il codice che crea i contenuti della mappa
+
+			come per gli stili, anche questo codice può essere
+			inserito in un file a parte e richiamato
+			insieme alle librerie JAVASCRIPT nell'HEAD
+
+		-->
+
+		<script>
+
+			// dentro lo SCRIPT il commento "veloce" si scrive iniziando con questi caratteri
+
+
+			// dentro lo SCRIPT il commento "veloce" si scrive iniziando con questi caratteri
+
+			/*
+				si può usare anche questa combinazione
+				per scrivere un commento "lungo"
+				fatto da più righe
+			*/
+
+			/*
+			 *
+			 * Per essere più ordinati, visto che i commenti
+			 * sono fatti per gli esseri umani abituati a Word
+			 * si possono mettere questi asterischi
+
+			 * Ad esempio per creare dei paragrafi
+			 * tutto in stile ASCII art
+
+						 /  /\           ___        /  /\          ___          /  /\         /  /\           ___        /  /\
+						/  /::\         /__/\      /  /::\        /__/\        /  /::\       /  /::|         /__/\      /  /::\
+					 /  /:/\:\        \__\:\    /__/:/\:\       \  \:\      /  /:/\:\     /  /:|:|         \__\:\    /  /:/\:\
+					/  /:/  \:\       /  /::\  _\_ \:\ \:\       \__\:\    /  /:/  \:\   /  /:/|:|__       /  /::\  /  /:/  \:\
+					/__/:/_\_ \:\   __/  /:/\/ /__/\ \:\ \:\      /  /::\  /__/:/ \__\:\ /__/:/ |:| /\   __/  /:/\/ /__/:/ \  \:\
+					\  \:\__/\_\/  /__/\/:/~~  \  \:\ \:\_\/     /  /:/\:\ \  \:\ /  /:/ \__\/  |:|/:/  /__/\/:/~~  \  \:\  \__\/
+					\  \:\ \:\    \  \::/      \  \:\_\:\      /  /:/__\/  \  \:\  /:/      |  |:/:/   \  \::/      \  \:\
+					 \  \:\/:/     \  \:\       \  \:\/:/     /__/:/        \  \:\/:/       |__|::/     \  \:\       \  \:\
+						\  \::/       \__\/        \  \::/      \__\/          \  \::/        /__/:/       \__\/        \  \:\
+						 \__\/                      \__\/                       \__\/         \__\/                      \__\/
+
+			 * generato con http://www.asciiarts.net/
+			 *
+			 */
+
+
+			// prima variabile, L.map
+			// di solito questa variabile viene chiamata solo map, ma preferisco personalizzarla chiamandola mapjs
+			// perchè map è un tag specifico di LeafletJS
+			var mapjs =
+				// funzione speciale di LeafletJS (sono contraddistine con L.tag )
+				L.map('map_html') // 'mymap' è il nome del contenitore HTML --> id="map_html"
+				.setView(
+					[45.648068, 9.731665], // latitudine , longitudine del centro della mappa
+					9 // lo zoom iniziale della mappa dove 0 è la vista mondo e 22 è la vista tombino
+				);
+
+			// variabile della prima (e unica) mappa base
+			var basemap_0 =
+				// funzione speciale di LeafletJS
+				L.tileLayer(
+					'http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', // ci sono un casino di servizi TILE (o render) da scegliere (leggete questo articolo: http://goo.gl/uEJlZK)
+					{
+						minZoom: 0, // ogni servizio TILE ha definito il massimo e il minimo zoom per cui è stato "colorato" e di solito è definito dall'autore
+						maxZoom: 18,
+						// in automatico in basso a destra nella mappa viene creato un box dove un testoriporta le licenze della mappa
+						// con questo tag 'attribution' si scrive in formato HTML il testo che viene inserito
+						attribution: ''
+							+'created by <b><a href="http://gistonic-milano.1hi.it/" target ="_blank">GIStonic Milano</a></b> & contributors<br>'
+							+'Map tiles by <a href="http://stamen.com">Stamen Design</a>, '
+							+'<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a><br>Map data: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,'
+							+'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+					}
+				);
+			// alla fine è necessario aggiungere la variabile basempa_0 al contenitore map_html attraverso mapjs
+			basemap_0.addTo(mapjs);
+
+			// se ci fossero ulteriori mappe di base da cui scegliere, vanno inserite in questa variabile sotto forma di ARRAY { array1, array2, ... }
+			var baseMaps = {
+				'STAMEN toner': basemap_0
+			};
+
+			// GEOMETRIA 1
+
+				/*
+				 * le geometrie (o feature) è meglio inserirle in un gruppo
+				 * ma anche se è solo una è comunque meglio inserirla in un gruppo
+				 * perchè i gruppi permettono di fare operazioni aggiuntive
+				 * ed è diffuso anche l'ultilizzo di un featureGroup per ogni geometria
+				 * sarà il nome del featureGroup che, ad esempio, verrà acceso e spento
+				 */
+
+				// variabile che definisce il featureGroup1
+				var feature_group1 = new L.featureGroup([]);
+
+				// i misteri dello sviluppo del web sono molti e questo $.getJSON è uno di questi (che funziona solo se abbiamo aggiunto la libreria JQuery)
+				$.getJSON(
+
+					// questo link che è possible aprirlo nel browser per vedere il contenuto è in pratica lo shapefile
+					// da QGis si esporta con "salva con nome" scegliendo il sistema di riferimento EPSG:4326
+					'http://gistonic-milano.1hi.it/experiment/aree_dismesse_01/data/pg_areedismessepolygon.geojson',
+
+					// una volta definito l'indirizzo della geometria in formato GeoJSON, il jQuery inizia a leggere i dati di questo file
+					// e gli assegna un nome generico "data" anche se potrebbe essere qualsiasi come "mydata"
+					function(data) {
+
+						// il jQuery si occupa di leggere tutte le righe del file GeoJSON e lo passa come un ARRAY alle funzioni di LeafletJS
+						// che per comodità "logica" viene creata una variabile
+						var geojson1 =
+							// funzione speciale di LeafletJS
+							L.geoJson(
+								// prende l'ARRAY data
+								data,
+								{
+									// per ogni riga (o geometria) presente in data ovvero nel file GeoJSON ritorna un "blocco" generato dalla funzione pop_Areedismesse
+									onEachFeature: pop_Areedismesse,
+									// sempre per ogni riga assegna uno stile
+									style: {
+										// visto che questo succede per ogni geometria, è possibile assegnare un colore diverso in base ad una categoria
+										color: '#ff0a00', // colore del perimetro
+										fillColor: '#ff0a00', // colore dell'area
+										weight: 4, // spessore del perimetro
+										dashArray: '', // il perimetro può essere tratteggiato
+										opacity: 0.4, // trasparenza del perimetro
+										fillOpacity: 0.2 // trasparenza dell'area
+									}
+								}
+							);
+
+						// si sceglie la variabile opportunamente definita geojson1 e la si aggiunge al gruppo feature_group1
+						feature_group1.addLayer(geojson1);
+
+						// ora il featuregroup1 può essere aggiunto al contenitore map_html attraverso mapjs
+						// se non si aggiunge questo comando all'apertura della mappa rimane spento e si aspetta un'altro comando per accenderlo successivamente
+						feature_group1.addTo(mapjs);
+
+					}
+
+				); // fine del $.getJSON
+
+				// questa funzione viene richiamata da onEachFeature
+				// in generale le funzioni sono sempre in attesa di essere richiamate da qualcuno!
+				function pop_Areedismesse(
+
+					/* di solito quando si chiama una funzione si possono passare delle variabili
+					 * esempio miafunzione(parametroA,parametroB)
+					 * ma quando in onEachFeature viene richiamato pop_Areedismesse
+					 * non viene definito nessun parametro ...
+					 * LeafletJS praticamente "sottointende" i seguenti parametri
+					 * e così vengono letti, appunto, come parametri
+
+					 * ps. questo continuo andare a capo può distrarre, la funzione è meglio scriverla così:
+					 * function pop_Areedismesse(feature,layer) { ... }
+					 */
+
+					feature,
+					layer
+
+				) {
+					// si continuano ad usare le variabili per migliorare la scrittura del codice
+					// qui viene definito il contenuto del POPUP fatto di codice HTML e variabili onEachFeature
+					var popupContent = ''
+						+'<span style="font-size:14px;"><b>' + feature.properties['DENOM'] + '</b></span><br>'
+						+'Comune di '+ feature.properties['NOME_COM']
+						+'<hr>'
+						+'<table>'
+							+'<tr><th scope="row">COD_DISM</th><td>' + feature.properties['COD_DISM'] + '</td></tr>'
+							+'<tr><th scope="row">Descrizione</th><td>' + feature.properties['DES_TIP1'] + '</td></tr>'
+							+'<tr><th scope="row">Specifica</th><td>' + feature.properties['TIP_SPEC1'] + '</td></tr>'
+							+'<tr><th scope="row">SCHEDA</th><td><a href="' + feature.properties['SCHEDA'] + '" target="_blank">apri pdf</a></td></tr>'
+						+'</table>'
+					+'';
+
+					// infine si passa la variabile popupContent alla funzione speciale per creare il POPUP
+					layer.bindPopup(popupContent);
+				}
+
+			// GEOMETRIA 1 FINE
+
+			// definizione del contenitore del TITOLO in alto a destra
+
+				var title = new L.Control();
+
+				title.onAdd = function (mapjs) {
+					this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+					this.update();
+					return this._div;
+				};
+
+				title.update = function () {
+					this._div.innerHTML = '<h2>Aree Dismesse</h2>Raccolta censimenti'
+				};
+				// alla fine è necessario aggiungere la variabile title al contenitore map_html attraverso mapjs
+				title.addTo(mapjs);
+
+			// aggiunta del controllo per accendere e spegnere il featureGroup
+			L.control.layers(
+				baseMaps,
+				{
+					"Aree Dismesse (censimento 2008/10) <a href='https://www.dati.lombardia.it/Territorio/Aree-Dismesse/tcmm-ht84'>dati.lombardia</a>": feature_group1
+				},
+				{collapsed:true}
+			)
+			.addTo(mapjs);
+
+			// aggiunta del controllo della scala grafica
+			L.control.scale(
+				{options:
+					{
+						position: 'bottomleft',
+						maxWidth: 100,
+						metric: true,
+						imperial: false,
+						updateWhenIdle: false
+					}
+				}
+			)
+			.addTo(mapjs);
+
+		</script>
+
+	</body>
+</html>
